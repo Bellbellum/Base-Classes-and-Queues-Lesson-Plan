@@ -1,4 +1,4 @@
-// Rename to "BaristaBotAgent.js"
+// Rename to "BaristaBotAgent.js" after downloading file so it will run successfully in main.js
 class BaristaBotAgent {
     constructor(id) {
         this.id = id;
