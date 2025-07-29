@@ -9,7 +9,7 @@ class Order {
     getDrinkType() { return this.drinkType; }
     getPreparationTime() { return this.preparationTime; }
 
-    _getPreparationTime(drinkType) {
+    getPreparationTime(drinkType) {
         switch (drinkType) {
             case 'coffee': return 5;
             case 'tea': return 3;
